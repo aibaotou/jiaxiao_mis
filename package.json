@@ -3,5 +3,11 @@
   "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/aibaotou/jiaxiao_mis.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.2"
+  }
 }
