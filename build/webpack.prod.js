@@ -8,8 +8,8 @@ module.exports = merge(
     output: {
       // filename: '[chunkhash].bundle.js',
       filename: '[name].[chunkhash].js',
-      chunkFilename: '[name].[chunkhash].js'
-    }
+      chunkFilename: '[name].[chunkhash].js',
+    },
   },
-  commonConfig
+  commonConfig,
 );
