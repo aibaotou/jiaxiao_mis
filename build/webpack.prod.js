@@ -1,4 +1,3 @@
-const path = require('path');
 const merge = require('webpack-merge');
 const commonConfig = require('./webpack.common');
 
@@ -8,8 +7,8 @@ module.exports = merge(
     output: {
       // filename: '[chunkhash].bundle.js',
       filename: '[name].[chunkhash].js',
-      chunkFilename: '[name].[chunkhash].js'
-    }
+      chunkFilename: '[name].[chunkhash].js',
+    },
   },
-  commonConfig
+  commonConfig,
 );

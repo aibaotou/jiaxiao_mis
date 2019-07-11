@@ -1,4 +1,9 @@
 import React from 'react';
+import { Layout } from 'antd';
+
+const {
+  Header, Footer, Sider, Content,
+} = Layout;
 
 export default class App extends React.Component {
   constructor() {
@@ -10,12 +15,18 @@ export default class App extends React.Component {
 
   render() {
     const { count } = this.state;
-
     return (
-      <div>
-        app入口
-        {count}
-      </div>
+      <Layout>
+        <Sider>Sider</Sider>
+        <Layout>
+          <Header>Header</Header>
+          <Content>
+            Content
+            {count}
+          </Content>
+          <Footer>Footer</Footer>
+        </Layout>
+      </Layout>
     );
   }
 }

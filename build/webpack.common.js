@@ -6,7 +6,7 @@ module.exports = {
   context: path.resolve(__dirname, '..', 'src'),
   entry: './index.js',
   output: {
-    path: path.resolve(__dirname, '..', 'dist')
+    path: path.resolve(__dirname, '..', 'dist'),
   },
   module: {
     rules: [
@@ -16,19 +16,19 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
-    ]
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
   },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './templete.html'
-    })
+      template: './templete.html',
+    }),
   ],
   resolve: {
-    extensions: ['.js', '.json', '.jsx', '.css']
-  }
+    extensions: ['.js', '.json', '.jsx', '.css'],
+  },
 };
