@@ -13,7 +13,7 @@ export default class App extends React.Component {
 
     return (
       <div>
-        app入口3434
+        首页
         {count}
       </div>
     );
