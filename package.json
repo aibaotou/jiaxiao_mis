@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack --config ./build/webpack.prod.js",
     "dev": "webpack-dev-server --config ./build/webpack.dev.js",
-    "lint": "eslint ./src/**/**.js*"
+    "lint": "eslint --ext .js,.jsx src"
   },
   "dependencies": {
     "react": "^16.8.6",
@@ -33,6 +33,7 @@
     "postcss": "^7.0.17",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^3.0.0",
+    "redux": "^4.0.4",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
