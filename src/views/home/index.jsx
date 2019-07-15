@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../../components/layout';
+import AppLayout from '../../components/AppLayout';
 
 function Home() {
   return (
-    <Layout>
+    <AppLayout>
       <div>首页</div>
-    </Layout>
+    </AppLayout>
   );
 }
 export default Home;

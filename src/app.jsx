@@ -4,8 +4,9 @@ import { LocaleProvider } from 'antd';
 import zhCN from 'antd/es/locale-provider/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
-import 'antd/dist/antd.css';
 import Home from './views/home';
+import 'normalize.css';
+import './app.css';
 
 moment.locale('zh-cn');
 

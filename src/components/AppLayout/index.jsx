@@ -1,13 +1,16 @@
 import React from 'react';
 import { Layout } from 'antd';
+import Header from '../AppHeader';
+import Footer from '../AppFooter';
+import Sider from '../AppSider';
 
-const {
-  Header, Footer, Sider, Content,
-} = Layout;
+import './index.css';
 
-function LayoutCondainer() {
+const { Content } = Layout;
+
+function AppLayout() {
   return (
-    <Layout>
+    <Layout className="app-container">
       <Sider>Sider</Sider>
       <Layout>
         <Header>Header</Header>
@@ -18,4 +21,4 @@ function LayoutCondainer() {
   );
 }
 
-export default LayoutCondainer;
+export default AppLayout;

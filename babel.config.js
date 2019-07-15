@@ -13,13 +13,12 @@ const presets = [
   ],
 ];
 const plugins = [
-  // [
-  //   'import',
-  //   {
-  //     libraryName: 'antd',
-  //     style: 'css',
-  //   },
-  // ],
-  ['import', { libraryName: 'antd', libraryDirectory: 'es', style: 'css' }],
+  [
+    'import',
+    {
+      libraryName: 'antd',
+      style: 'css',
+    },
+  ],
 ];
 module.exports = { presets, plugins };
