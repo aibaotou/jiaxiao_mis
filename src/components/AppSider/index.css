@@ -1,0 +1,7 @@
+.app-sider__logo {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+}

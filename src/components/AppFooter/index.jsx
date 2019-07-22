@@ -4,7 +4,7 @@ import { Layout } from 'antd';
 const { Footer } = Layout;
 
 function AppFooter() {
-  return <Footer>Footer</Footer>;
+  return <Footer style={{ textAlign: 'center' }}>Footer该写点什么</Footer>;
 }
 
 export default AppFooter;

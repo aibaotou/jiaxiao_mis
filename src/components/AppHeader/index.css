@@ -1,0 +1,31 @@
+.app-header {
+  position: relative;
+}
+.app-header__right {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+  padding-right: 20px;
+  align-items: center;
+}
+.app-header__user {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.app-header__user-text {
+  margin-left: 5px;
+}
+.menu-toggle-btn {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.menu-toggle-btn:hover {
+  background-color: #eee;
+}

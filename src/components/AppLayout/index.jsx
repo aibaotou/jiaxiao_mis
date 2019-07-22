@@ -11,11 +11,11 @@ const { Content } = Layout;
 function AppLayout() {
   return (
     <Layout className="app-container">
-      <Sider>Sider</Sider>
+      <Sider />
       <Layout>
-        <Header>Header</Header>
-        <Content>content</Content>
-        <Footer>Footer</Footer>
+        <Header />
+        <Content className="app-content">content</Content>
+        <Footer />
       </Layout>
     </Layout>
   );

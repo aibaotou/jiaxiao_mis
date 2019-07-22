@@ -1,10 +1,21 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Layout, Menu } from 'antd';
+
+import './index.css';
 
 const { Sider } = Layout;
+const { Item } = Menu;
 
 function AppSider() {
-  return <Sider>Sider</Sider>;
+  return (
+    <Sider>
+      <div className="app-sider__logo">驾校管理系统</div>
+      <Menu mode="inline" theme="dark">
+        <Item>学员管理</Item>
+        <Item>用户中心</Item>
+      </Menu>
+    </Sider>
+  );
 }
 
 export default AppSider;
