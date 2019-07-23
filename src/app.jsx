@@ -9,7 +9,7 @@ import { LocaleProvider } from 'antd';
 import zhCN from 'antd/es/locale-provider/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
-import Home from './views/home';
+import Student from './views/student';
 import 'normalize.css';
 import './app.css';
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <LocaleProvider locale={zhCN}>
       <Router>
-        <Home />
+        <Student />
       </Router>
     </LocaleProvider>
   );
