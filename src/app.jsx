@@ -11,6 +11,7 @@ import moment from 'moment';
 import 'moment/locale/zh-cn';
 import Home from './views/home';
 import Login from './views/login';
+import Student from './views/student';
 import 'normalize.css';
 import './app.css';
 
@@ -22,6 +23,7 @@ function App() {
       <Router>
         <Route exact path="/" component={Home} />
         <Route path="/login" component={Login} />
+        <Route path="/student" component={Student} />
       </Router>
     </LocaleProvider>
   );
